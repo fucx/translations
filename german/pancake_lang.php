@@ -1350,5 +1350,136 @@ Die Fehlermeldung war:
   'invoices:could_not_auto_charge' => 'Pancake war nicht in der Lage, die Rechnung für Ihren Kunden automatisch durchzuführen. Ihr Kunde muss die Rechnung #:1 manuell bezahlen.',
   'invoices:auto_charged' => 'Ihrem Kunden wurde Rechnung #:1 ausgestellt. Die Rechnung wird jetzt bezahlt.',
   "invoices:due_date" => "Fälligkeitsdatum",
+  "settings:filesystem_explain" => "Hinweis: Wenn Sie diese Einstellung ändern, kopiert Pancake alle Dateien für Sie an den neuen Speicherort. Sie müssen dann nichts weiter tun.",
+  # End v4.12.0 changes
+
+  # Begin v4.12.1 changes
+  "error:using_old_php" => "Sie verwenden PHP :1, das seit :2 veraltet ist und nicht mehr von der PHP Group supported wird.",
+  # End v4.12.1 changes
+
+  # Begin v4.12.7 changes
+  "settings:last_cron_run_datetime" => "Zuletzt ausgeführt: :1",
+  # End v4.12.7 changes
+
+  # Begin v4.12.9 changes
+  "settings:hijacked_error" => '<div class="diagnostic-error"><h4>Ihr Server versucht, Sie zu täuschen!</h4><p>Sie haben versucht, eine Verbindung zu :1 herzustellen, aber Ihr Webserver hat sie gekapert und sich stattdessen mit :2 verbunden.<br /><br />Dies ist ein äußerst ernstes Sicherheitsproblem, da Ihr Benutzername, Ihr Passwort und der Inhalt Ihrer E-Mail an einen anderen als den erwarteten E-Mail-Server gesendet werden.<br /><br />Wenden Sie sich diesbezüglich an Ihren Serveradministrator.</p></div>',
+  # End v4.12.9 changes
+
+  # Begin v4.12.13 changes
+  "invoices:edit_does_not_exist" => 'Die Rechnung, die Sie zu bearbeiten versuchen, existiert nicht.',
+  # End v4.12.13 changes
+
+  # Begin v4.12.14 changes
+  "settings:importedexpenses" => ':1 Ausgaben erfolgreich importiert.',
+  "projects:is_timesheet_viewable" => "Zeiterfassungsbogen des Projekts im Kundenbereich anzeigen?",
+  "tasks:is_timesheet_viewable" => "Zeiterfassungsbogen der Aufgabe im Kundenbereich anzeigen?",
+  # End v4.12.14 changes
+
+  # Begin v4.12.15 changes
+  "notifications:mark_all_as_read" => "Alle als gelesen markieren",
+  'notifications:new_comment' => 'Neuer Kommentar von :1 bei <a href=":2">:3</a> um :4',
+  # End v4.12.15 changes
+
+  # Begin v4.12.16 changes
+  "invoices:unsent_recurrences" => "Ungesendet (wiederkehrende)",
+  "invoices:unsent_not_recurrences" => "Ungesendet (nicht-wiederkehrende Rechnungen)",
+  "discussions:does_not_exist" => "Das Element, auf das Sie zugreifen wollten, existiert nicht.",
+  "discussions:private_commented_successfully" => "Ihr privater Kommentar wurde erfolgreich abgeschickt. Der Kunde wird ihn nicht sehen.",
+  "discussions:public_commented_successfully" => "Ihr Kommentar wurde erfolgreich veröffentlicht, und der Kunde wurde per E-Mail darüber informiert.",
+  "discussions:discussion_area" => "Diskussionen",
+  # End v4.12.16 changes
+
+  # Begin v4.12.18 changes
+  "projects:project_invoices" => "Rechnungen zum Projekt",
+  "projects:project_estimates" => "Kostenvoranschläge zum Projekt",
+  'global:upload_ini_size' => 'Die von Ihnen hochgeladene Datei überschreitet die von Ihrem Webserver vorgegebene Größenbeschränkung (:1).',
+  "discussions:message_cannot_be_empty" => "Ihr Kommentar darf nicht leer sein.",
+  "global:change_date_range" => "Zeitraum ändern",
+  "timesheet:rounded" => "Gerundet",
+  # End v4.12.18 changes
+
+  # Begin v4.12.19 changes
+  "projects:deleted" => "Projekt erfolgreich gelöscht!",
+  'tickets:edited' => 'Ticket :1 erfolgreich bearbeitet!',
+  # End v4.12.19 changes
+
+  # Begin v4.12.20 changes
+  "global:x_hours" => ":1 Stunden",
+  "global:one_hour" => ":1 Stunde",
+  # End v4.12.20 changes
+
+  # Begin v4.12.21 changes
+  "global:couldnotsendemail" => "Pancake konnte die E-Mail nicht senden.<br />Gehen Sie zu Einstellungen > E-Mails und überprüfen Sie Ihre E-Mail-Einstellungen.",
+  "settings:gmail_access_denied" => "Sie haben Pancake den Zugriff auf Gmail zum Senden von E-Mails verweigert.",
+  'notifications:new_ticket' => ':1 hat <a href=":2">:3</a> um :4 erstellt',
+  'notifications:responded_ticket' => ':1 hat auf <a href=":2">:3</a> um :4 geantwortet',
+  'notifications:updated_status_ticket' => ':1 hat den Status von <a href=":2">:3</a> um :4 auf <strong>:5</strong> geändert',
+  'tickets:ticket_title' => "Ticket #:1 - :2",
+  # End v4.12.21 changes
+
+  # Begin v4.12.22 changes
+  "invoices:unpaid_recurrences" => "Alle unbezahlten (wiederkehrend)",
+  "invoices:unpaid_not_recurrences" => "Alle unbezahlten (nicht-wiederkehrende Rechnungen)",
+  # End v4.12.22 changes
+
+  # Begin v4.12.24 changes
+  "invoices:amount_including_surcharge" => ":1 einschließlich :2 Aufschlag",
+  # End v4.12.24 changes
+
+  # Begin v4.12.27 changes
+  "invoices:delete_does_not_exist" => 'Die Rechnung, die Sie zu löschen versuchen, existiert nicht.',
+  "invoices:select_a_gateway" => "Sie müssen eine Zahlungsart für diese Zahlung angeben.",
+  "discussions:are_you_sure_delete" => "Sind Sie sicher, dass Sie diesen Kommentar löschen wollen?",
+  "discussions:deleted" => "Der Kommentar wurde erfolgreich gelöscht.",
+  "discussions:edited" => "Der Kommentar wurde erfolgreich bearbeitet.",
+  "projects:back_to_project" => "Zurück zum Projekt",
+  # End v4.12.27 changes
+
+  # Begin v4.13.0 changes
+  "reports:all_business_identities" => "Alle Geschäftsidentitäten",
+  "clients:default_currency" => "Standardwährung",
+  "clients:default_currency_explanation" => "Wird standardmäßig für alle neuen Rechnungen, Projekte und Kostenvoranschläge für diesen Kunden verwendet.",
+  "paypalpro:paypalpro" => "PayPal Payments Pro",
+  "gateways:surcharge_percentage" => "Transaktionsgebühr (%)",
+  "gateways:surcharge_percentage_explanation" => "Wird automatisch zu jeder Zahlung hinzugefügt, die über dieses Zahlungsgateway erfolgt.",
+  # End v4.13.0 changes
+
+  # Begin v4.13.4 changes
+  "gateways:surcharge_invoice" => ":1 Aufschlag für Rechnung #:2",
+  "gateways:direct_deposit" => "Direct Deposit",
+  # End v4.13.4 changes
+
+  # Begin v4.13.6 changes
+  "items:period" => "Zeitraum",
+  "items:period_day" => "Tage",
+  "items:period_week" => "Wochen",
+  "items:period_month" => "Monate",
+  "items:period_year" => "Jahre",
+  'credit_notes:added' => '<strong>Erfolg!</strong> Die Gutschrift wurde hinzugefügt.',
+  # End v4.13.6 changes
+
+  # Begin v4.13.7 changes
+  "global:upload_not_allowed" => "Das Hochladen von ':1'-Dateien ist nicht erlaubt. Wenn Sie eine Datei dieses Typs hochladen müssen, komprimieren Sie sie bitte in ein .zip- oder ein anderes geeignetes Archivformat.",
+  "settings:pdf_footer_contents" => "Fußzeile der PDF-Datei",
+  "settings:pdf_footer_contents_explanation" => "Dies erscheint auf jeder Seite der PDFs für Rechnungen, Kostenvoranschläge und Gutschriften. Sie können {{page}} und {{pages}} verwenden, um die aktuelle Seite bzw. die Seitenzahl anzuzeigen",
+  # End v4.13.7 changes
+
+  # Begin v4.13.8 changes
+  "settings:what_variables_can_i_use" => "Welche Variablen kann ich benutzen?",
+  # End v4.13.8 changes
+
+  # Begin v4.13.18 changes
+  "settings:tax_transaction_fees" => "Sind Transaktionsgebühren steuerpflichtig?",
+  "settings:tax_transaction_fees_explanation" => "Wenn Sie dieses Häkchen setzen, werden alle Transaktionsgebühren, die Ihren Kunden in Rechnung gestellt werden, zu Buchführungszwecken als „einschließlich Steuer“ gekennzeichnet.<br />Dadurch ändert sich nicht der Betrag, der Ihren Kunden in Rechnung gestellt wird, sondern nur, ob dieser Betrag Steuern enthält.",
+  # End v4.13.18 changes
+
+  # Begin v4.14.0 changes
+  "gateways:cc_permission" => 'Ich ermächtige :1, dem Finanzinstitut, das meine Karte ausgestellt hat, Anweisungen zu erteilen, um Zahlungen von meiner Karte gemäß den Bedingungen unserer Vereinbarung einzuziehen.',
+  # End v4.14.0 changes
+
+  # Begin v4.15.0 changes
+  "clients:can_view_invoices_without_passphrase" => "Dem Kunden erlauben, Rechnungen ohne Eingabe seiner Passphrase einzusehen?",
+  # End v4.15.0 changes
+
 );
 /** End of file: pancake_lang.php **/

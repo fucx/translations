@@ -8,14 +8,14 @@
  *
  * @package     Pancake
  * @author      Bruno De Barros <bruno@terraduo.com> - https://terraduo.com
- * @author      Florian Simeth 
+ * @author      Thomas Heinrichsdobler
  * @author      Pancake Payments <support@pancakeapp.com> - https://www.pancakeapp.com
  * @author      Philip - https://github.com/therephil
  * @author      Thomas Heinrichsdobler - demicloud.com
  * @copyright   Copyright (c) 2016, Pancake Payments
  * @license     https://www.pancakeapp.com/license
  * @link        https://www.pancakeapp.com
- * @since       Version 4.11.22
+ * @since       Version 4.15.3
  */
 
 // ------------------------------------------------------------------------
